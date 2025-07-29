@@ -1,0 +1,17 @@
+{
+  "name": "TelegramBot",
+  "description": "My Telegram Bot",
+  "scripts": {
+    "postdeploy": "python main.py"
+  },
+  "env": {
+    "BOT_TOKEN": {
+      "description": "8309577045:AAEXy-r3B93qKUF5g12d-SX-ve0X0OiXoYY",
+      "required": true
+    },
+    "API_URL": {
+      "description": "https://185.104.248.160:3443",
+      "required": true
+    }
+  }
+}
